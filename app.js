@@ -18,7 +18,7 @@ app.get('/stocks',(req, res)=>{
       "quote" : "APPLE",
       "quote" : "MICROSOFT",
       "quote" : "TESLA"
-   }
+   });
 });
 
 

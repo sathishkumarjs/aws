@@ -21,6 +21,14 @@ app.get('/stocks',(req, res)=>{
    });
 });
 
+app.post('/stocks',(req, res)=>{
+   res.send({
+      "quote" : "APPLE",
+      "quote" : "MICROSOFT",
+      "quote" : "TESLA"
+   });
+});
+
 
 // Export your Express configuration so that it can be consumed by the Lambda handler
 module.exports = app
